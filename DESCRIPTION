@@ -1,16 +1,17 @@
 Package: ROI.plugin.optimx
-Version: 1.0-0
+Version: 1.0-1
 Title: 'optimx' Plug-in for the 'R' Optimization Infrastructure
-Author: Florian Schwendinger [aut, cre]
-Maintainer: Florian Schwendinger <FlorianSchwendinger@gmx.at>
+Authors@R: person("Florian", "Schwendinger", role = c("aut", "cre"), email = "FlorianSchwendinger@gmx.at")
 Description: Enhances the R Optimization Infrastructure ('ROI') package
         with the 'optimx' package.
-Imports: methods, stats, utils, ROI (>= 0.3-2), optimx
+Imports: methods, stats, utils, ROI (>= 1.0-0), optimx
 Suggests: BB, ucminf, minqa, dfoptim, lbfgsb3c, lbfgs, subplex
 License: GPL-3
-URL: http://roi.r-forge.r-project.org/,
-        https://r-forge.r-project.org/projects/roi/
+URL: https://roigrp.gitlab.io,
+        https://gitlab.com/roigrp/solver/ROI.plugin.optimx
 NeedsCompilation: no
-Packaged: 2020-08-29 17:46:11 UTC; f
+Packaged: 2023-07-06 15:27:16 UTC; f
+Author: Florian Schwendinger [aut, cre]
+Maintainer: Florian Schwendinger <FlorianSchwendinger@gmx.at>
 Repository: CRAN
-Date/Publication: 2020-08-29 18:10:06 UTC
+Date/Publication: 2023-07-06 23:30:06 UTC
